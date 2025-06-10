@@ -1,0 +1,85 @@
+
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column; /* Arrange children vertically */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Nav bar*/
+.top-nav {
+    width: 100%;
+    max-width: 450px;
+    background-color: #3498db;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Nav links styling */
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    background-color: #2980b9;
+}
+
+
+/* container for weather  */
+.weather-container {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 450px;
+}
+
+/* Heading  */
+h1 {
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+/* Location  */
+#location {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* data */
+.weather-info p {
+    font-size: 1.2em;
+    color: #555;
+    margin: 8px 0;
+}
+
+.weather-info span {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+/* Error red */
+.error {
+    color: #e74c3c;
+    margin-top: 15px;
+    font-size: 0.9em;
+}

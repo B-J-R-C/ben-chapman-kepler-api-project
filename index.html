@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <nav class="top-nav">
+        <a href="index.html?view=temperature" class="nav-link">Temperature</a>
+        <a href="index.html?view=condition" class="nav-link">Condition</a>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="weather-container">
+        <h1>Current Weather</h1>
+        <div id="location">Loading location...</div>
+        
+        
+        <div id="weather-data" class="weather-info">
+            <p>Please select a view from the navigation above.</p>
+        </div>
+
+        <!-- for Error -->
+        <div id="error-message" class="error"></div>
+    </div>
+
+    
+    <script src="index.js"></script>
+</body>
+</html>
